@@ -8,4 +8,4 @@ I built this project to get better at using React.js, managing state, and workin
 
 ---
 
-Made by Bryan pogi
+Made by BryanLomerio
