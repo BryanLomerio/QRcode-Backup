@@ -1,14 +1,22 @@
-# QR Code Generator
+# 🌟 QR Code Generator  
 
-## Description
+## 📄 Description  
 
-This QR Code Generator is a project I created to practice my skills in React.js and working with web elements. It lets users enter text, generate a QR code, and download it as an image.
+This QR Code Generator is a project I created to practice my skills in **React.js** and working with web elements. It lets users enter text, generate a QR code, and download it as an image.  
 
-I built this project to get better at using React.js, managing state, and working with tools like `html-to-image` for saving images. It’s a hands-on way for me to improve my web development skills.
+I built this project to get better at using **React.js**, managing state, and working with tools like `html-to-image` for saving images. It’s a hands-on way for me to improve my web development skills.  
 
----
+---  
 
-## How It Works
+## 🛠️ Tech Stack  
+
+- **React.js**: ⚛️ Frontend framework for building interactive UIs.  
+- **Tailwind CSS**: 🎨 Utility-first framework for designing responsive layouts.  
+- **JavaScript**: 💻 Programming language for logic and functionality.  
+
+---  
+
+## 🚀 How It Works  
 
 1. **First Load**  
    This is the initial view when the app loads:  
@@ -26,6 +34,6 @@ I built this project to get better at using React.js, managing state, and workin
    Use any QR scanner to scan the generated QR code and see the encoded information:  
    ![Test QR Code with Scanner](./src/assets/qr4.png)  
 
----
+---  
 
-Made by BryanLomerio
+Made with ❤️ by **Bryan Lomerio**  
