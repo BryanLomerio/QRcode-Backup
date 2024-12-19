@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import Qr from "./components/Qr.jsx"
+import Qr from "./Qr.jsx"
+import './index.css'
 
 
 function App() {
   return (
     <>
-  <Qr/>
+      <Qr />
     </>
   )
 }
