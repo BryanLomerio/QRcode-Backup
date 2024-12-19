@@ -6,7 +6,7 @@ This QR Code Generator is a project I created to practice my skills in **React.j
 
 I built this project to get better at using **React.js**, managing state, and working with tools like `html-to-image` for saving images. It’s a hands-on way for me to improve my web development skills.  
 
-🌐 **[Live Demo](https://q-rcode-ashen.vercel.app/)**  
+🌐 **[Live Demo](https://q-rcode-ashen.vercel.app/)**  https://q-rcode-ashen.vercel.app/
 ---  
 
 ## 🛠️ Tech Stack  
