@@ -38,9 +38,8 @@ function Qr() {
 
     return (
         <>
-            {/* Added background color here */}
-            <div className="flex justify-center mb-8 bg-blue-50 p-8 rounded-lg">
-                <h1 className="text-4xl font-semibold text-gray-800">QR Code Generator</h1>
+            <div className="flex justify-center mb-8 bg-[#9534eb] p-8">
+                <h1 className="text-4xl font-semibold text-white">QR Code Generator</h1>
             </div>
 
             <div className="flex justify-center mb-8 space-x-4">
@@ -52,13 +51,14 @@ function Qr() {
                     placeholder="Enter text or URL"
                 />
                 <button
-                    className={`h-14 px-8 bg-blue-600 text-white font-semibold rounded-lg transition-colors duration-300 ease-in-out 
-                    ${input.trim() ? 'hover:bg-blue-700 shadow-xl' : 'bg-gray-400 cursor-not-allowed'}`}
+                    className={`h-14 px-8 bg-[#9534eb] text-white font-semibold rounded-lg transition-all duration-300 ease-in-out 
+  ${input.trim() ? 'hover:bg-black hover:scale-105 shadow-xl' : 'bg-gray-400 cursor-not-allowed'}`}
                     disabled={input.trim() === ""}
                     onClick={handleGenerateQrCode}
                 >
                     Generate QR
                 </button>
+
             </div>
 
             {qrCode && (
@@ -75,15 +75,16 @@ function Qr() {
 
             <div className="flex justify-center mb-8">
                 <button
-                    className="h-14 px-8 bg-green-600 text-white font-semibold rounded-lg transition-colors duration-300 ease-in-out transform hover:scale-105 hover:bg-green-700 shadow-xl"
+                    className="h-14 px-8 bg-[#9534eb] text-white font-semibold rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-black shadow-xl"
                     onClick={handleScreenshot}
                 >
-                    Download Screenshot
+                    Download
                 </button>
+
             </div>
 
             <footer className="flex justify-center items-center text-gray-500 py-8">
-                <p className="text-lg">Made with ❤️ by Anino</p>
+                <p className="text-lg">Made with ❤️ by BryanLomerio</p>
             </footer>
         </>
     );
