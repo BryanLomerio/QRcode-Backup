@@ -8,4 +8,24 @@ I built this project to get better at using React.js, managing state, and workin
 
 ---
 
+## How It Works
+
+1. **First Load**  
+   This is the initial view when the app loads:  
+   ![QR Code Initial Load](./src/assets/qr1.png)  
+
+2. **Enter Any Input**  
+   You can enter any text, link, or information you want to encode into the QR code. Then click the generate button:  
+   ![Enter Input to Generate QR](./src/assets/qr2.png)  
+
+3. **Download Image**  
+   Once the QR code is generated, click the download button to save it as an image:  
+   ![Download QR Code Image](./src/assets/qr3.png)  
+
+4. **Test It Out**  
+   Use any QR scanner to scan the generated QR code and see the encoded information:  
+   ![Test QR Code with Scanner](./src/assets/qr4.png)  
+
+---
+
 Made by BryanLomerio
